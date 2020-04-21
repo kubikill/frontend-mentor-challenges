@@ -240,6 +240,12 @@ body {
         flex-direction: row;
         padding-bottom: 104px;
     }
+    .pricing-item:first-child {
+        border-radius: 8px 0 0 8px;
+    }
+    .pricing-item:last-child {
+        border-radius: 0 8px 8px 0;
+    }
 
     .pricing-item {
         margin: 0;
